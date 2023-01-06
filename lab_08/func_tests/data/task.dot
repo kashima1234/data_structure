@@ -1,0 +1,5 @@
+digraph task {
+0 -> 1 [label="7.0"];
+0 -> 2 [label="4.0"];
+0 -> 3 [label="2.0"];
+}
