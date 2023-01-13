@@ -1,0 +1,12 @@
+digraph my_tree {
+119 [label="119, h = 6"]40 [label="40, h = 3"]119 -> 40 [color=blue];
+119 [label="119, h = 6"]346 [label="346, h = 3"]119 -> 346 [color=red];
+40 [label="40, h = 3"]19 [label="19, h = 2"]40 -> 19 [color=blue];
+40 [label="40, h = 3"]43 [label="43, h = 1"]40 -> 43 [color=red];
+19 [label="19, h = 2"]24 [label="24, h = 1"]19 -> 24 [color=red];
+346 [label="346, h = 3"]231 [label="231, h = 2"]346 -> 231 [color=blue];
+346 [label="346, h = 3"]443 [label="443, h = 2"]346 -> 443 [color=red];
+231 [label="231, h = 2"]129 [label="129, h = 1"]231 -> 129 [color=blue];
+231 [label="231, h = 2"]344 [label="344, h = 1"]231 -> 344 [color=red];
+443 [label="443, h = 2"]457 [label="457, h = 1"]443 -> 457 [color=red];
+}

@@ -1,0 +1,22 @@
+digraph my_tree {
+284 [label="284, h = 5"]197 [label="197, h = 4"]284 -> 197 [color=blue];
+284 [label="284, h = 5"]382 [label="382, h = 4"]284 -> 382 [color=red];
+197 [label="197, h = 4"]90 [label="90, h = 3"]197 -> 90 [color=blue];
+197 [label="197, h = 4"]254 [label="254, h = 3"]197 -> 254 [color=red];
+90 [label="90, h = 3"]14 [label="14, h = 2"]90 -> 14 [color=blue];
+90 [label="90, h = 3"]111 [label="111, h = 2"]90 -> 111 [color=red];
+14 [label="14, h = 2"]10 [label="10, h = 1"]14 -> 10 [color=blue];
+14 [label="14, h = 2"]16 [label="16, h = 1"]14 -> 16 [color=red];
+111 [label="111, h = 2"]104 [label="104, h = 1"]111 -> 104 [color=blue];
+111 [label="111, h = 2"]165 [label="165, h = 1"]111 -> 165 [color=red];
+254 [label="254, h = 3"]215 [label="215, h = 2"]254 -> 215 [color=blue];
+254 [label="254, h = 3"]270 [label="270, h = 1"]254 -> 270 [color=red];
+215 [label="215, h = 2"]209 [label="209, h = 1"]215 -> 209 [color=blue];
+215 [label="215, h = 2"]229 [label="229, h = 1"]215 -> 229 [color=red];
+382 [label="382, h = 4"]324 [label="324, h = 2"]382 -> 324 [color=blue];
+382 [label="382, h = 4"]432 [label="432, h = 3"]382 -> 432 [color=red];
+324 [label="324, h = 2"]363 [label="363, h = 1"]324 -> 363 [color=red];
+432 [label="432, h = 3"]384 [label="384, h = 1"]432 -> 384 [color=blue];
+432 [label="432, h = 3"]453 [label="453, h = 2"]432 -> 453 [color=red];
+453 [label="453, h = 2"]1111 [label="1111, h = 1"]453 -> 1111 [color=red];
+}
